@@ -1,16 +1,80 @@
-# React + Vite
+# 🎓 EduTrack – Learning Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EduTrack is a project I built using React.js to make it easier for students to manage their courses and assignments in one place.
 
-Currently, two official plugins are available:
+The application provides a simple dashboard where students can add courses, track their learning progress, and keep an eye on their assignment deadlines.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Features
 
-## React Compiler
+- Dashboard: Displays the total number of enrolled courses and assignments.
+- Course Management: Add new courses, edit existing ones, or delete courses.
+- Search & Filter:Find courses using the course name, instructor name, or category.
+- Progress Tracking:Update the progress of each course using a slider.
+- Assignment Management: Add assignments along with their due dates.
+- Assignment Tracking: Mark assignments as completed or pending.
+- Data Persistence:Course details, progress, and assignments are saved using browser LocalStorage, so they remain available after refreshing the page.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸Project Preview
+
+EduTrack has a simple dashboard with course cards, progress bars, assignment details, and summary cards to help students keep track of their learning activities.
+
+##  How to Run the Project
+
+If you want to run this project on your local machine, follow these steps.
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/SangeethaMangapatnam/Education-track-.git
+```
+
+2. Open the project folder
+
+```bash
+cd Education-track-
+```
+
+3. Install the required packages
+
+```bash
+npm install
+```
+
+4. Start the application
+
+```bash
+npm run dev
+```
+
+The development server will provide a local URL. Open that URL in your browser to use EduTrack.
+
+## 📚 What I Learned
+
+While building this project, I got practical experience with:
+
+- Using React Hooks like `useState` and `useEffect`.
+- Managing data and updating the UI using React.
+- Implementing add, edit, and delete operations.
+- Handling forms and user interactions.
+- Saving and retrieving data using LocalStorage.
+- Building a dashboard using HTML, CSS, and React.
+
+##  Future Improvements
+
+I would like to improve EduTrack further by adding:
+
+- User registration and login.
+- Backend and database integration.
+- Course lesson management.
+
+
+Thanks for checking out my project! 😊
